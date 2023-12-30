@@ -1,0 +1,11 @@
+T=int(input())
+while(T):
+    x=int(input())
+    n=int(input())
+    a=x//3
+    b=x%3
+    if(a*3==x):
+        print(a*n*2,'\n')
+    elif(a*3+b==x):
+        print((a*n*2)+b*n,'\n')
+    T-=T
